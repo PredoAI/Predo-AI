@@ -5,6 +5,7 @@ import UserWallet from './models/user-wallet.schema';
 import axios from 'axios';
 import { config } from 'dotenv';
 import { connectDb } from './config/db';
+
 import { env } from './config/environment';
 import { classifyCommand, extractBetDetails, getPredoGameInfo } from './utils/gemini';
 import { createWallet, getWalletBalance } from './utils/wallet-infra';

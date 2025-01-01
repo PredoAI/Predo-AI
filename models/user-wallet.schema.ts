@@ -13,4 +13,5 @@ const UserWalletSchema: Schema = new Schema({
 });
 
 const UserWallet = mongoose.model<IUserWallet>('UserWallet', UserWalletSchema);
+
 export default UserWallet

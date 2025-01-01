@@ -1,7 +1,7 @@
 import { config } from "dotenv";
 
 
-// Load environment variables from .env file
+// Load environment variables from the .env file
 config();
 
 // Define an interface for type safety

@@ -1,4 +1,4 @@
-# Predo Bot 🎲🤖
+# Predo Bot! 🎲🤖
 
 ## Overview
 Predo is an innovative Telegram bot that leverages AI and blockchain technology to create, manage, and resolve decentralized betting experiences. Built with TypeScript and Solana, Predo provides a seamless, interactive platform for users to engage in predictive betting.

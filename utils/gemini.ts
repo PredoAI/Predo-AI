@@ -22,7 +22,7 @@ export async function extractBetDetails(betDetails: string) {
       minAmount: z.number().int().positive(),
       endTime: z.string()
     }),
-    system: `You are a highly accurate bet details extractor. Extract bet details from the following text and search for current information if available. Provide title, options (at least 2), minimum bet amount in USDC (default to 1 if not specified), and end time in ISO 8601 format. The current time is ${getCurrentTime()}, do not hallucniate any details`,
+    system: `You are a highly accurate bet detail extractor. Extract bet details from the following text and search for current information if available. Provide title, options (at least 2), minimum bet amount in USDC (default to 1 if not specified), and end time in ISO 8601 format. The current time is ${getCurrentTime()}, do not hallucniate any details`,
     prompt: betDetails
   });
   console.log(object);
