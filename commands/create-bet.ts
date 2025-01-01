@@ -55,7 +55,7 @@ export default async function createBet(ctx) {
   const message = await ctx
     .replyWithPhoto(bet.image, {
       caption: 
-        `🎲 Challenge Accepted! 🚀\n\n` +
+        `🎲 Challenge Accepted!! 🚀\n\n` +
         `Your epic bet "${bet.title}" is now LIVE! 🔥\n\n` +
         `Bet Details:\n` +
         `└ ID: \`${bet.betId.toLowerCase()}\`\n` +
