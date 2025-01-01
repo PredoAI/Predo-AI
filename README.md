@@ -23,7 +23,7 @@ Predo is an innovative Telegram bot that leverages AI and blockchain technology 
 ## 🚀 Tech Stack
 - **Language**: TypeScript
 - **Blockchain**: Solana
-- **Bot Framework**: Telegraf
+- **Bot Framework**: Telegraf.
 - **AI Services**:
   - Google Gemini
   - Perplexity AI
